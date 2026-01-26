@@ -1,15 +1,14 @@
-// some & every
+let arr =[5, 3, 8, 1, 2];
 
-let arr1 = [1,2,3,4,5]
+let newarr = arr.sort((a, b) => {return b - a});
 
-let value = arr1.some( (ele, ind, arr) => {
-    return ele%2 == 0
-})
+console.log(newarr); 
 
-let value1 = arr1.every( (ele, ind, arr) => {
-    return ele%2 == 0
-})
+let newarr2 = [10, 20, 30, 40, 50, true, "100"]
 
-console.log( value1);
- 
+let descsort = newarr2.sort((a, b) => { return b - a});
 
+// b- a => positive => swapping do
+// b- a => negative => no swapping
+
+console.log(descsort);
