@@ -1,0 +1,8 @@
+.calculator{
+    width: 15w;
+    height: 70vh;
+    border: 1px solid rgb(105, 96, 96);
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
